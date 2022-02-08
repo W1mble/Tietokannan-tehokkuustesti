@@ -28,7 +28,9 @@ public class Tehokkuus {
         deletefiles();
     }
  
- 
+    /**
+     * Alihojelma, jolla poistetaan syntyneet tietokannat
+     */
     private static void deletefiles() {
     	Path path = FileSystems.getDefault().getPath("./testi.db");
     	Path path2 = FileSystems.getDefault().getPath("./testi2.db");
@@ -46,7 +48,7 @@ public class Tehokkuus {
     }
 
 
-	/**
+     /**
      * Testi 1, jossa ei käytetä indeksiä
      */
     private static void testi1() {
