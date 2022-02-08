@@ -12,7 +12,7 @@ import java.util.*;
  * @version 08.08.2022
  *
  */
-public class SQL {
+public class Tehokkuus {
 
 	private static final String KIRJAIMET = "abcdefghijklmnopqrstuvwxyzåäö";
 
